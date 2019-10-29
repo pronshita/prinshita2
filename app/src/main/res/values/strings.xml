@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">prinshita</string>
+    <string name="btn_songkhla">Songkhla</string>
+    <string name="btn_trang">Trang</string>
+    <string name="btn_khon_kaen">Khon Kaen</string>
+    <string name="btn_lamphun">Lamphun</string>
+
+    <string name="history_songkhla">
+        Songkhla (English: Songkhla) is a province in the lower southern region. It has the 2nd largest population in the southern region (after Nakhon Si Thammarat) and the 3rd largest area in the southern region
+    </string>
+    <string name="history_trang">
+        Trang is a province in southern Thailand. Trang or Thap Thiang city is another tourist province of the southern region
+    </string>
+    <string name="history_khon_kaen">
+        Khon Kaen Is the province with the 6th largest area in the northeast region And has the 3rd largest population in the northeast region
+    </string>
+    <string name="history_lamphun">
+
+Lamphun Province, formerly known as City of Hariphunchai It is an ancient city aged about 1,343 years according to the Chronicles of the Ionian Chronicles, successor to the construction of Hariphunchai city
+    </string>
+</resources>

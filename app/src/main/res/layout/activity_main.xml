@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="280dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="32dp"
+        android:text="กรุณาเลือกจังหวัด"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_province" />
+
+    <TextView
+        android:id="@+id/tv_history"
+        android:layout_width="339dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="40dp"
+        android:text="ลองกดผ่อนะ"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
+
+    <Button
+        android:id="@+id/btn_songkhla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_songkhla"
+        app:layout_constraintStart_toStartOf="@+id/tv_history"
+        app:layout_constraintTop_toBottomOf="@+id/tv_history" />
+
+    <Button
+        android:id="@+id/btn_trang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_trang"
+        app:layout_constraintEnd_toEndOf="@+id/tv_history"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toEndOf="@+id/btn_songkhla"
+        app:layout_constraintTop_toBottomOf="@+id/tv_history" />
+
+    <Button
+        android:id="@+id/btn_khon_kaen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_khon_kaen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_lamphun"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_songkhla"
+        app:layout_constraintTop_toBottomOf="@+id/btn_songkhla"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <Button
+        android:id="@+id/btn_lamphun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_lamphun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_trang"
+        app:layout_constraintTop_toBottomOf="@+id/btn_trang"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <ImageView
+        android:id="@+id/img_province"
+        android:layout_width="0dp"
+        android:layout_height="247dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_trang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
